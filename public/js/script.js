@@ -1,8 +1,10 @@
 const red = document.querySelector(".red")
 
-const button = () => {
-    const btn = document.createElement("button")
-    alert("")
+const btn = document.createElement("button")
+red.push(btn)
+const button = (e) => {
+    alert("버튼을 누르셨습니다 안녕하세요")
 } 
 
+btn.addEventListener("click",button)
 
